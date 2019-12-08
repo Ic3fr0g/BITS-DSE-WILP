@@ -1,0 +1,32 @@
+Groups 8,18,28,38,48,58,68,78,88,98,108,118,128,138,148
+Instructions
+Follow the instructions in each question carefully.
+A Jupyter notebook along with output for each cell is expected.
+Any assignment submitted using  other python IDEs are not considered for grading.
+Use appropriate labels for all visualizations.
+Upload the output.csv file along with the notebook when required.
+Question 1
+ 
+
+Consider the following dataset and follow the instructions
+
+Import the dataset from https://www.kaggle.com/mansoordaku/ckdisease . (1 points).(Hint: Convert txt to csv for ease of use.)
+Identify the columns with missing values (1 point).
+Extract X as all columns except the first column and Y as first column. (1 point). Perform 10 fold cross validation. (1 point)
+Visualize the dataset using two appropriate plots. (2 points)
+Split the data into training set and testing set. (1 points)
+Train a Logistic regression model for the dataset. (1 points)
+Display the coefficients and form the logistic regression equation. (2 point)
+Compute the accuracy and confusion matrix. (2 points)
+Plot the decision boundary and test results. (1 point)
+Question 2
+Considering the Census Income data with response variable as Income(>50k and <=50k).
+
+Import the csv dataset from https://www.kaggle.com/uciml/adult-census-income (Links to an external site.) (1 points).
+Identify the presence of missing values, fill the missing values with mean for numerical attributes and mode value for categorical attributes. (2 points)
+Visualize the dataset. (1 points)
+Extract X as all columns except the Income column and Y as Income column. (1 points)
+Split the data into training set and testing set. (1 points)
+Model and train the classifier using GaussianNB, BernoulliNB. (2 points)
+Compute the accuracy and confusion matrix for each classifier. (2 points)
+Plot the decision boundary, visualize training and test results (3 point)
